@@ -7,7 +7,7 @@ export const RandomQuote = () => {
   const [quotes, setQuotes] = useState([]);
   const [quote, setQuote] = useState({
     text: "As you move toward a dream, the dream moves toward you.",
-    author: "Julia Cameron"
+    author: " - Julia Cameron"
   });
 
   const twitter = () => {

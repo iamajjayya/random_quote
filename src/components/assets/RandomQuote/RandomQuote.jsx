@@ -25,9 +25,9 @@ export const RandomQuote = () => {
       }
     };
 
-    loadQuotes(); // Call loadQuotes here
+    loadQuotes(); 
 
-  }, []); // The empty dependency array ensures that this effect runs only once on mount
+  }, []); 
 
   const random = () => {
     const selectedQuote = quotes[Math.floor(Math.random() * quotes.length)];
